@@ -14,5 +14,13 @@
 [Navigating the Unknown](cyber-apocalypse-2023/blockchain/navigating_the_unknown)\
 [Shooting 101](cyber-apocalypse-2023/blockchain/shooting_101)
 
+### web
+[Passman](cyber-apocalypse-2023/web/passman)
+
+### forensics
+[Packet Cyclone](cyber-apocalypse-2023/forensics/packet_cyclone)
+
+### hardware
+[HM74](cyber-apocalypse-2023/hardware/hm74)
 
 -----------------------------------------------------------------------------------------------------------------
