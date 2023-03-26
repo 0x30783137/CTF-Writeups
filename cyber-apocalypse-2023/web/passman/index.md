@@ -9,6 +9,7 @@ Can you hack into the password manager?
 We ae given the project files including backeng js, dockerfile, database queries and ...
 
 1. First of all this is DB tables
+
 ```sql
 CREATE DATABASE passman;
 
@@ -58,6 +59,7 @@ If we look closer we see that the flag is inside `saved_passwords` table which i
 2. We also have graphql in backend which do login,register,save password, ...
 
 Here is register request
+
 ```http
 POST /graphql HTTP/1.1
 Host: 138.68.162.218:32084
@@ -82,7 +84,7 @@ Connection: close
 ```
 
 And here is the backed graphql section for registration which is `Graphql Mutation`
-```js
+
 ```js
 name: 'Mutation',
 fields: {
@@ -103,7 +105,8 @@ fields: {
     },
 ```
 
-Here is login request 
+Here is login request
+
 ```http
 POST /graphql HTTP/1.1
 Host: 138.68.162.218:32084
@@ -127,6 +130,7 @@ Connection: close
 ```
 
 And here is the backend graphql code which is also a `Graphql Mutation`
+
 ```js
 LoginUser: {
     type: ResponseType,
@@ -156,6 +160,7 @@ LoginUser: {
 After logging in a JWT is assigned to us which indicates our user.\
 Our goal is to get flag which is inside saved_passwords database inside admin notes\
 Each user can see his/her only notes not others according to this code which is a `Graphql Query`
+
 ```js
 name: 'Query',
 fields: {
@@ -178,6 +183,7 @@ So we as a non-admin user can not see admin`s notes which is flag\
 There are also two other `Graphql Mutations`
 
 **AddPhrase** : which is for adding note
+
 ```js
 AddPhrase: {
     type: ResponseType,
@@ -201,6 +207,7 @@ AddPhrase: {
 ```
 
 **UpdatePassword**: which is for changing password for a user
+
 ```js
 UpdatePassword: {
     type: ResponseType,
@@ -222,6 +229,7 @@ UpdatePassword: {
 
 The `UpdatePassword` Mutation looks interesting and as we can see there is no proper authentication to prevent nonadmin users to change other users' password\
 Let's look at the `UpdatePassword Mutation` schema through [graphql introspection query](https://book.hacktricks.xyz/network-services-pentesting/pentesting-web/graphql)
+
 ```http
 POST /graphql HTTP/1.1
 Host: 138.68.162.218:32084
@@ -241,6 +249,7 @@ Connection: close
 ```
 
 And here is the `UpdatePassword` Mutation
+
 ```json
 {
   "name": "UpdatePassword",
@@ -300,6 +309,7 @@ Cookie: session=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjB4MTciLCJ
 ```
 
 And here is the response:
+
 ```json
 {
   "data": {
