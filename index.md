@@ -2,7 +2,7 @@
 
 ------------------------------------------------------------------------------------------------------------------
 
-## Cyber Apocalypse 2023 (Team Pr1m3d)
+## Cyber Apocalypse 2023 (Team Pr1m3d rank 95/6483)
 
 ###  crypto
 [Small StEps](cyber-apocalypse-2023/crypto/small_steps/)\
